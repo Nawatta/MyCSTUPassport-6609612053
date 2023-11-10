@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
 
 
@@ -54,37 +56,38 @@ body {
     background-size: cover;
 }
 
-.image {
-   display: flex;
-   margin: auto;
-   padding-top: 20px;
-   justify-content: center;
-   border-image: round;   
+.top-box {
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.img-top {
+    border-radius: 10px;
 }
 
 h3,h4,p {
     color: aliceblue;
 }
 
-.head {
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
 .intro{
-    border-style:solid;
-    background-color:gray;
-    border-radius: 50px;
+    border-style: hidden;
+    background-color:rgb(53, 51, 51);
     text-align: center;
     font-size: 16px;
-    margin-bottom: 25px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
 }
 
 .about{
-    border-style:solid;
-    background-color:gray;
-    border-radius: 50px;
+    border-style:hidden;
+    background-color:rgb(53, 51, 51);
     text-align: center;
     font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
